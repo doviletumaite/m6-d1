@@ -56,6 +56,24 @@ INSERT INTO public.books(title, category, cover, author_id, published_at) VALUES
 INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Origin', 'novel', 'https://images-na.ssl-images-amazon.com/images/I/91mOPxKPdML.jpg', 1, 30, 2)
 INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Inferno', 'novel', 'https://bilder.buecher.de/produkte/40/40545/40545396z.jpg', 1, 30, 2)
 INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Murder on the Orient Express', 'novel', 'https://upload.wikimedia.org/wikipedia/en/c/c0/Murder_on_the_Orient_Express_First_Edition_Cover_1934.jpg', 2, 40, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('The Mysterious Affair at Styles', 'novel', 'https://images-na.ssl-images-amazon.com/images/I/918TvCMQO4L.jpg', 2, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Death on the Nile', 'novel', 'https://prodimage.images-bn.com/pimages/9780062990006_p0_v1_s550x406.jpg', 2, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('O Alquimista', 'novel', 'https://m.media-amazon.com/images/I/51qMh6gwJcL.jpg', 3, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Onze minutos', 'novel', 'https://m.media-amazon.com/images/I/51yHegF3h4L.jpg', 3, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Veronika decide morrer', 'novel', 'https://m.media-amazon.com/images/I/51VZ8Y2BmpL.jpg', 3, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('The Pillars of the Earth', 'novel', 'https://m.media-amazon.com/images/I/51O+bXad7oL.jpg', 4, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Fall of Giants', 'novel', 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Fall_of_Giants.jpg/200px-Fall_of_Giants.jpg', 4, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('The evening and the morning', 'novel', 'https://images-na.ssl-images-amazon.com/images/I/91lqmYeSxwL.jpg', 4, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('A Time to Kill', 'novel', 'https://assets.thalia.media/img/artikel/a3cbdf6b90edba597de0de56a16c914d58ed56b2-00-03.jpeg', 5, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('A time for mercy', 'Thriller', 'https://images-na.ssl-images-amazon.com/images/I/913YS-xyYBL.jpg', 5, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('The Firm', 'Mystery', 'https://images-na.ssl-images-amazon.com/images/I/51GWQ06AQCL.jpg', 5, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('It', 'horror', 'https://images.wired.it/wp-content/uploads/2017/10/18134513/1508319907_Schermata-2017-10-18-alle-11.44.55.png', 6, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('The Stand', 'novel', 'https://images-na.ssl-images-amazon.com/images/I/81c8No6mSPL.jpg', 6, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('The Shining', 'horror', 'https://images-na.ssl-images-amazon.com/images/I/619OiTawH0L.jpg', 6, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Norwegian Wood', 'novel', 'https://images-na.ssl-images-amazon.com/images/I/41OVhGrdcSL._SX322_BO1,204,203,200_.jpg', 7, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('1Q84', 'fantasy', 'https://images-na.ssl-images-amazon.com/images/I/71hhB1Rwk4L.jpg', 7, 50, 2)
+INSERT INTO public.books(title, category, cover, author_id, read_time_unit, read_time_value) VALUES('Kafka on the Shore', 'novel', 'https://assets.thalia.media/img/artikel/bf34918eefe2cdd2e210663cd014ae1e85d09d70-00-00.jpeg', 7, 50, 2)
+
 
 SELECT * FROM books;
 SELECT * FROM books WHERE category='novel';
